@@ -1,7 +1,7 @@
 # Copilot Instructions for My-AWESOME-Pet-Site
 
 ## Project Overview
-This is My AWESOME Pet Site - a web application for pet-related content and services.
+This is My AWESOME Pet Site - a web application designed to provide pet owners and enthusiasts with a comprehensive platform for pet-related content, services, and community engagement. The site aims to help users find information about pet care, connect with other pet lovers, and access various pet-related services.
 
 ## Repository Guidelines
 
