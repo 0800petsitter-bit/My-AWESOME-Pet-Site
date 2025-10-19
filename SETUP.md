@@ -85,7 +85,7 @@ If you want to add user authentication:
    npm run dev
    ```
 
-3. Open [http://localhost:3000](http://localhost:3000) in your browser
+3. Open your browser to the URL shown in the terminal (typically [http://localhost:3000](http://localhost:3000), or 3001, 3002, etc. if port 3000 is in use)
 
 4. You should see the pet site homepage with a green "Connected to Supabase" status indicator!
 

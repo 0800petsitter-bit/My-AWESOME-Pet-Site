@@ -82,9 +82,13 @@ async function exampleDeletePet(petId: string) {
 // Example 6: Create an appointment
 async function exampleCreateAppointment(petId: string) {
   try {
+    // Schedule appointment for one week from now
+    const appointmentDate = new Date()
+    appointmentDate.setDate(appointmentDate.getDate() + 7)
+    
     const appointment = await createAppointment({
       pet_id: petId,
-      appointment_date: new Date('2025-11-01T10:00:00Z').toISOString(),
+      appointment_date: appointmentDate.toISOString(),
       service_type: 'grooming',
       notes: 'First grooming appointment',
       status: 'scheduled'
@@ -169,7 +173,7 @@ export function PetListComponent() {
         <div key={pet.id}>
           <h3>{pet.name}</h3>
           <p>Type: {pet.type}</p>
-          <p>Breed: {pet.breed}</p>
+          {pet.breed && <p>Breed: {pet.breed}</p>}
         </div>
       ))}
     </div>
