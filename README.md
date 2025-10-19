@@ -1,2 +1,2 @@
-# My-AWESOME-Pet-Site
+# my-awesome-pet-site
 My AWESOME Pet Site
